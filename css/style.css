@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+
+body {
+    width: 320px;
+    margin: 0 auto;
+
+    font-family: 'Ubuntu', 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.main-header {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
+.main-navigation {
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.main-container {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main-container__intro {
+    height: 349px;
+
+    background-image: url('../img/decorative/header-back.png');
+}
+.intro__title {
+    width: 261px;
+    height: 78px;
+    padding-top: 61px;
+    padding-left: 20px;
+
+    font-family: 'Ubuntu', 'Arial', sans-serif;
+    font-size: 29px;
+    font-weight: 300;
+    line-height: 40px;
+
+    color: white;
+}
+
+.intro__image-line {
+    padding-left: 20px;
+}
+.about__title {
+    width: 189px;
+    padding-top: 25px;
+    padding-left: 20px;
+
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.about__information-list {
+    padding-left: 20px;
+
+    font-size: 14px;
+    line-height: 30px;
+
+    list-style-type: none;
+}
+
+.blue-item {
+    color: #6997c9;
+}
+
+.about__price,
+.main-info__price {
+    padding-left: 115px;
+
+    font-size: 24px;
+    font-weight: 300;
+}
+.about__price-description,
+.main-info__price-description {
+    padding-left: 95px;
+
+    font-size: 14px;
+    font-weight: 300;
+
+    color: #b3b0a9;
+}
+
+.about__btn,
+.main-info__btn {
+    width: 224px;
+    height: 48px;
+    margin-left: 47px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+
+    border: 2px solid #ffde16;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.main-info__season-start {
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: 300;
+
+    color: #6999cb;
+}
+.main-info__link {
+    color: #6999cb;
+}
+
+.main-info__title,
+.main-info__text,
+.main-info__summary {
+    padding-right: 20px;
+    padding-left: 20px;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.description-list__item {
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 0;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+
+    list-style-type: none;
+}
+
+.gallery__title {
+    padding-left: 20px;
+
+    font-size: 18px;
+    font-weight: 300;
+
+    color: #0f1011;
+}
+
+.gallery__slide {
+    padding-left: 20px;
+}
+
+.reviews__shot {
+    padding-left: 20px;
+}
+.useful-info__title {
+    padding-left: 20px;
+
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.useful-info__list {
+    width: 213px;
+    margin-left: 20px;
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 41px;
+
+    list-style-type: none;
+
+    border: 4px solid #6999cb;
+}
+
+.see-more__title {
+    padding-left: 20px;
+
+    font-size: 20px;
+    font-weight: 300;
+}
+.see-more__product {
+    width: 280px;
+    height: 176px;
+    margin-left: 20px;
+
+    color: white;
+    border-radius: 8px;
+    background-image: url('../img/decorative/blue-back.png');
+}
+
+.see-more__product:last-child {
+    margin-bottom: 45px;
+}
+
+.see-more__product-name {
+    padding-top: 23px;
+    padding-left: 20px;
+
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.see-more__product-type {
+    padding-top: 23px;
+    padding-left: 40px;
+
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.see-more__image-line {
+    padding-left: 20px;
+}
+
+.main-footer {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main-footer__upper-level {
+    height: 200px;
+    padding-top: 21px;
+    padding-left: 19px;
+
+    color: white;
+    background-color: #6997c9;
+}
+
+.upper-level__title,
+.upper-level__descrition {
+    font-weight: 300;
+}
+.upper-level__title {
+    font-size: 16px;
+
+    text-transform: uppercase;
+}
+.upper-level__descrition {
+    font-size: 10px;
+}
+.upper-level__copyrights {
+    width: 265px;
+
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.upper-level__phone-number {
+    padding-left: 23px;
+
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.upper-level__email {
+    padding-left: 23px;
+
+    font-size: 13px;
+    font-weight: 300;
+}
+.main-footer__lower-level {
+    height: 144px;
+
+    background-color: #5d85b1;
+}
