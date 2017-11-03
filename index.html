@@ -12,18 +12,22 @@
 <body>
 <header class="main-header">
     <nav class="main-navigation">
+        <div class="logo">
+        <picture>
+            <source media="(min-width:1366px)" srcset="img/content/logo-desktop.png">
+            <img src="img/content/logo.svg" alt="логотип">
+        </picture>
+
+    </div>
         <ul class="site-navigation">
-            <li class="site-navigation__item">Петербург-Петергоф</li>
-            <li class="site-navigation__item">Билеты</li>
-            <li class="site-navigation__item">Расписание</li>
-            <li class="site-navigation__item">О Петергофе</li>
-            <li class="site-navigation__item">8 812 965 34 04 info@nevatrip.ru</li>
+            <li class="site-navigation__item">Петербург-Петергоф <span class="item--grey">Экскурсия и  транспорт</span></li>
+            <li class="site-navigation__item item">Билеты <span class="item--grey">в Петергоф</span></li>
+            <li class="site-navigation__item item">Расписание <span class="item--grey">и новости Петергофа</span></li>
+            <li class="site-navigation__item">О Петергофе <span class="item--grey">Фонтаны, дворцы, парк</span></li>
+            <li class="site-navigation__item site-navigation__item--contact">8 812 965 34 04 info@nevatrip.ru</li>
         </ul>
         <div class="main-navigation__user-menu user-menu">
             <button class="user-menu__btn"><img src="img/decorative/hamburger.svg" alt="меню"></button>
-        </div>
-        <div class="logo">
-            <img src="img/content/logo.svg" alt="логотип">
         </div>
         <div class="phone">
             <svg class="phone__image" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -45,14 +49,13 @@
     </section>
     <div class="page-wrapper">
         <ul class="breadcrumbs">
-            <li class="breadcrumbs__item">Главная/</li>
-            <li class="breadcrumbs__item">Экскурсии/</li>
+            <li class="breadcrumbs__item">Главная /</li>
+            <li class="breadcrumbs__item">Экскурсии /</li>
             <li class="breadcrumbs__item">Трансфер "Метеор в Петергоф"</li>
         </ul>
         <div class="page-blocks">
             <h2 class="about__title">Трансфер "Метеор в Петергоф"</h2>
             <section class="about">
-
                 <ul class="about__information-list information-list">
                     <li class="information-list__item"><span class="information-list__title">Длительность:</span> 6
                         часов
@@ -159,19 +162,48 @@
             </section>
             <section class="gallery">
                 <h2 class="gallery__title">Фотогалерея</h2>
-                <div class="galery__box">
-                    <img src="img/content/galery-item-tablet.jpg" width="113" height="73" alt="Вид на Петергоф">
-                    <img src="img/content/galery-item2-tablet.jpg" width="113" height="73" alt="фонтаны">
-                    <img src="img/content/galery-item3-tablet.jpg" width="113" height="73" alt="Собор">
-                    <img src="img/content/gallery-item4-tablet.jpg" width="113" height="73" alt="фонтаны">
-                    <img src="img/content/gallary-item5-tablet.jpg" width="112" height="74" alt="статуя">
-                    <img src="img/content/galery-item-tablet.jpg" width="113" height="73" alt="Вид на Петергоф">
-                    <img src="img/content/galery-item2-tablet.jpg" width="113" height="73" alt="фонтаны">
-                    <img src="img/content/galery-item3-tablet.jpg" width="113" height="73" alt="Собор">
-                    <img src="img/content/gallery-item4-tablet.jpg" width="113" height="73" alt="фонтаны">
-                    <img src="img/content/gallery-item6-tablet.jpg" width="112" height="74" alt="памятник">
+                <div class="gallery__box">
+                    <picture>
+                    <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-1.jpg">
+                    <img src="img/content/gallery-item-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-2.jpg">
+                        <img src="img/content/gallery-item2-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-3.jpg">
+                        <img src="img/content/gallery-item3-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-4.jpg">
+                        <img src="img/content/gallery-item4-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-5.jpg">
+                        <img src="img/content/gallery-item5-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-1.jpg">
+                        <img src="img/content/gallery-item-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-2.jpg">
+                        <img src="img/content/gallery-item2-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-3.jpg">
+                        <img src="img/content/gallery-item3-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-4.jpg">
+                        <img src="img/content/gallery-item4-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
+                    <picture>
+                        <source media="(min-width 1366px)" srcset="img/content/gallery-desktop-item-6.jpg">
+                        <img src="img/content/gallery-item6-tablet.jpg" alt="Вид на Петергоф">
+                    </picture>
                 </div>
-
                 <div class="gallery-wrapper wrapper">
                     <div class="wrapper__slide"></div>
                     <div class="wrapper__slide"></div>
@@ -183,8 +215,9 @@
             </section>
             <section class="reviews">
                 <picture>
+                    <source media="(min-width:1366px)" srcset="img/content/review-desktop.jpg">
                     <source media="(min-width:768px)" srcset="img/content/review-tablet.jpg">
-                    <img class="reviews__shot" src="img/content/reviews.jpg" width="280" height="322" alt="отзывы">
+                    <img class="reviews__shot" src="img/content/reviews.jpg"  alt="отзывы">
                 </picture>
 
                 <div class="reviews__vk-comments"></div>
